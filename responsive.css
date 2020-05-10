@@ -1,0 +1,53 @@
+@import "style.css";
+
+/* Monitors with screen width 1366px or above */
+
+h1 { font-size: 36px; }
+
+/*  Tablets in landscape mode, older desktop monitors */
+
+@media only screen and (min-width: 1024px) and (max-width: 1365px) { 
+	h1 { font-size: 32px; }
+}
+
+/*  Tablets in portrait mode, large display smartphones landscape mode */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) { 
+	h1 { font-size: 24px; }
+	.banner { height: 200px; }
+}
+
+/*  Smartphones in landscape mode */
+
+@media only screen and (min-width: 421px) and (max-width: 767px) {
+	h1 { font-size: 18px }
+	.container { padding-left: 5%; padding-right: 5%; }
+	.banner { height: 150px }
+	.introduction { padding-left: 5% }
+	.about-me-btn { height: 35px }
+	.about-me, .portfolio { flex-direction: column;
+		align-items: center;
+	 }
+	#profile-img, #portfolio-img { width: 65%; padding-bottom: 25px; }
+	.contact-me-text { font-size: 16px; }
+
+	footer { padding-left: 5%; padding-right: 5% }
+}
+
+/*  Smartphones in portrait mode  */
+
+@media only screen and (max-width: 420px) {
+h1 { font-size: 16px }
+	.container { padding-left: 0; padding-right: 0; }
+	.banner { height: 150px }
+	.introduction { padding-left: 3% }
+	.about-me-btn { height: 35px }
+	.about-me, .portfolio { flex-direction: column;
+		align-items: center;
+	 }
+	#profile-img, #portfolio-img { width: 65%; padding-bottom: 25px; }
+	.contact-me-text { font-size: 16px; }
+	a { padding-right: 5px }
+	i { padding-left: 1px }
+	footer { padding-left: 0; padding-right: 0}
+}
