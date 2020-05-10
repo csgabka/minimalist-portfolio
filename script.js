@@ -19,6 +19,8 @@ const downArrowBottomNav = document.getElementById('downArrowBottomNav');
 const bottomNavHome = document.getElementById('bottom-nav-home');
 const bottomNavPort = document.getElementById('bottom-nav-port');
 
+window.onload = () => {setTimeout(() => {document.body.style.opacity="100";},500);};
+
 topNavHome.addEventListener('click', () => {
 	goHome();
 })

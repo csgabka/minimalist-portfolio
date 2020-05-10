@@ -6,6 +6,7 @@
 }
 
 body {
+	opacity:0;
 	background-color: #FAFAFA;
 	font-family: 'Libre Caslon Text', serif;
 	top: 5px;
