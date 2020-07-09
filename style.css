@@ -13,8 +13,11 @@ body {
 }
 
 html, body {
-	height: 100%; 
 	overflow-x: hidden;
+}
+
+body {
+	height: 100%;
 }
 
 /*container*/
@@ -228,7 +231,7 @@ p {
 	left: 20px;
 }
 
-.portfolio-btn:hover, 
+.portfolio-btn:hover,
 .contact-me-btn:hover,
 .goto-about-me-btn:hover
  {
@@ -248,11 +251,11 @@ p {
 	padding-bottom: 70px;
 	padding-right: 10%;
 	position: relative;
-	width: 100%; 
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 }
- 
+
 .contact-me-text {
 	width: 40%;
 	font-size: 26px;
